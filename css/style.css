@@ -1,11 +1,17 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 #logo{
     height: 50%;
-    margin-left: 20px;
-    margin-top: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+#title-footer{
+    color: #868686;
 }
 
 .header-bg{
@@ -13,6 +19,7 @@
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
     height: 180px;
+    position: relative;
 }
 
 .title{
@@ -33,14 +40,14 @@
     height: 600px;
 }
 
-.block-1  h2{
-    font-size: 30px;
-    color: #ababab;
+.block-1 h2{
+    font-size: 20px;
+    color: #868686;
 }
 
 .block-1 p{
     font-size: 20px;
-    color: #ababab;
+    color: #868686;
 }
 
 .block-2 p{
@@ -48,18 +55,18 @@
 }
 
 .text-1{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 30px;
 }
 
-.highlights{
+.highlighted{
     background-color: yellow;
 }
 
 .table{
     width: 100%;
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
     border-spacing: 0;
     margin-bottom: 30px;
 }
@@ -87,7 +94,28 @@
     height: 50%;
 }
 
+.footer-img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.title-footer-1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    max-width: 300px;
+}
+
 main{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+footer{
     margin-top: 20px;
     margin-left: 10px;
 }
