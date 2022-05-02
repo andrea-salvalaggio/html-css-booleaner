@@ -1,11 +1,10 @@
 *{
     margin: 0;
-    padding: 0;
 }
 
 #logo{
     height: 50%;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 80px;
 }
 
@@ -14,4 +13,81 @@
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
     height: 180px;
+}
+
+.title{
+    font-size: 70px;
+}
+
+.link{
+    text-decoration: none;
+    color: #41b6e9;
+}
+
+.block-2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-img{
+    height: 600px;
+}
+
+.block-1  h2{
+    font-size: 30px;
+    color: #ababab;
+}
+
+.block-1 p{
+    font-size: 20px;
+    color: #ababab;
+}
+
+.block-2 p{
+    font-size: 20px;
+}
+
+.text-1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.highlights{
+    background-color: yellow;
+}
+
+.table{
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    border-spacing: 0;
+    margin-bottom: 30px;
+}
+
+.thead{
+    color: white;
+    background-color: #20a9e5;
+}
+
+.larghezza-1{
+    width: 20%;
+}
+
+.larghezza-2{
+    width: 40%;
+}
+
+.tbody{
+    background-color: #b1e5f2;
+    height: 50%;
+}
+
+.tbody-1{
+    background-color: white;
+    height: 50%;
+}
+
+main{
+    margin-top: 20px;
+    margin-left: 10px;
 }
